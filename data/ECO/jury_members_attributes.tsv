@@ -1,0 +1,164 @@
+id_jury	gender	profession	nb_publications	date_first_publi
+1	M	Professeur	120	1982
+2	M	Directeur de recherches	71	1991
+3	M	Professeur	170	1984
+4	F	Professeur	15	2000
+5	M	Directeur de recherches	124	1987
+6	M	Professeur	96	1991
+7	M	Professeur	131	1985
+8	M	Professeur	206	1985
+9	M	Professeur	275	1983
+10	M	Directeur de recherches	130	1994
+11	M	Professeur	258	1990
+12	M	Professeur	182	1987
+13	M	Professeur	205	1982
+14	M	Directeur de recherches	93	1975
+15	M	Professeur	132	1992
+16	M	Professeur	208	1985
+17	M	Professeur	92	1992
+18	M	Professeur	73	1992
+19	M	Charge de recherches	46	1998
+20	M	Professeur	95	1999
+21	M	Professeur	468	1974
+22	M	Professeur	33	1999
+23	M	Professeur	79	1979
+24	M	Professeur	42	1992
+25	F	Professeur	13	1996
+26	M	Professeur	7	2000
+27	M	Professeur	35	1999
+28	M	Professeur	75	1986
+29	M	Professeur	242	1992
+30	M	Professeur	33	1998
+31	M	Professeur	52	1985
+32	M	Directeur d'etudes	386	1979
+33	M	Directeur de recherches	40	1998
+34	F	Professeur	80	1992
+35	M	Professeur	52	1987
+36	M	Directeur de recherches	120	1977
+37	M	Directeur de recherches	67	1999
+38	M	Professeur	59	1995
+39	M	Professeur	131	1990
+40	M	Directeur de recherches	0	
+41	M	Professeur	41	1994
+42	M	Professeur	22	1990
+43	M	Professeur	69	1977
+44	M	Professeur	120	1989
+45	M	Professeur	49	1996
+46	M	Directeur de recherches	109	1993
+47	M	Professeur	33	1997
+48	M	Professeur	93	1980
+49	M	Professeur	60	2000
+50	M	Professeur	133	1975
+51	M	Directeur de recherches	103	1988
+52	M	Chercheur	16	2005
+53	M	Professeur	55	1993
+54	F	Professeur	6	2001
+55	M	Professeur	49	1994
+56	M	Professeur	31	1997
+57	M	Professeur	131	1976
+58	M	Professeur	90	1986
+59	M	Professeur	115	1996
+60	M	Professeur	29	1998
+61	M	Professeur	47	1999
+62	M	Professeur	162	1982
+63	M	Secretaire general	1	1980
+64	M	Professeur	243	1975
+65	M	Directeur de recherches	70	1990
+66	M	Professeur	76	1976
+67	M	Professeur	134	1974
+68	M	Professeur	52	1986
+69	M	Directeur de recherches	30	1992
+70	M	Professeur	27	1990
+71	M	Professeur	51	1985
+72	M	Professeur	39	1991
+73	M	Professeur	79	1989
+74	M	Professeur	69	1984
+75	M	Professeur	96	1989
+76	M	Professeur	162	1985
+77	M	Professeur	71	1997
+78	M	Professeur	61	1992
+79	M	Professeur	126	1994
+80	M	Professeur	107	1989
+81	F	Professeur	37	1992
+82	M	Professeur	57	1997
+83	M	Professeur	38	1993
+84	M	Professeur	392	1974
+85	M	Professeur	331	1974
+86	M	Chercheur	36	1998
+87	M	Professeur	204	1973
+88	M	Professeur	0	
+89	M	Professeur	54	1988
+90	M	Professeur	65	1974
+91	M	Professeur	50	1988
+92	M	Professeur	41	1993
+93	M	Professeur	100	1982
+94	M	Professeur	18	1990
+95	M	Professeur	34	2001
+96	M	Professeur	126	1994
+97	F	Professeur	73	1979
+98	M	Professeur	116	1982
+99	M	Professeur	54	1996
+100	M	Professeur	135	1977
+101	M	Professeur	277	1979
+102	F	Recteur	38	1991
+103	M	Charge de recherches	59	2001
+104	M	Directeur de recherches	190	1992
+105	M	Professeur	50	1996
+106	M	Professeur	28	1996
+107	M	Professeur	54	1988
+108	M	Professeur	121	1994
+109	F	Professeur	36	2000
+110	M	Professeur	80	1994
+111	M	Professeur	71	1998
+112	M	Professeur	94	1998
+113	M	Professeur	212	1979
+114	M	Professeur	64	1990
+115	F	Maitre de conference	12	2000
+116	M	Professeur	178	1984
+117	M	Professeur	281	1980
+118	M	Professeur	125	1990
+119	M	Maitre de conference	24	1995
+120	M	Professeur	391	1990
+121	M	Professeur	126	1997
+122	M	Professeur	73	1997
+123	F	Directeur de recherches	31	1989
+124	M	Directeur de recherches	5	1991
+125	F	Professeur	42	1991
+126	M	Professeur	81	1976
+127	M	Professeur	50	1992
+128	M	Professeur	3	2005
+129	F	Professeur	48	1996
+130	M	Professeur	50	1992
+131	M	Professeur	31	1998
+132	M	Professeur	71	1989
+133	F	Professeur	24	1999
+134	M	Professeur	199	1982
+135	M	Professeur	86	1996
+136	F	Professeur	21	1989
+137	M	Professeur	66	1989
+138	M	Professeur	22	1991
+139	M	Professeur	18	1994
+140	M	Professeur	9	2000
+141	M	Professeur	55	1999
+142	M	Professeur	188	1989
+143	M	Professeur	83	1985
+144	M	Professeur	47	1997
+145	M	Professeur	100	1971
+146	M	Professeur	57	1982
+147	F	Professeur	62	1994
+148	M	Professeur	57	2000
+149	M	Professeur	34	1990
+150	F	Professeur	40	2002
+151	M	Professeur	98	1988
+152	M	Professeur	145	1980
+153	M	Professeur	10	1997
+154	M	Chercheur	63	1995
+155	M	Professeur	78	1999
+156	M	Professeur	286	1979
+157	M	NA	5	1998
+158	M	Maitre de conference	56	1999
+159	M	Professeur	54	1992
+160	M	Professeur	11	1999
+161	M	Professeur	34	1992
+162	M	Professeur	38	1987
+163	M	Professeur	22	2000
