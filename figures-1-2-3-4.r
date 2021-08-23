@@ -101,17 +101,6 @@ write_tsv(as.data.frame(l), "layout/layout_astro.tsv")
 # Figure 4
 #############################################################################################################
 
-n <- ego(g, order = 1, nodes = V(g)[name %in% c("Rème", "Von Ballmoos")], mode = c("all"),
-    mindist = 0) %>% unlist()
-
-s <- induced_subgraph(g, n)
-
-S <- make_ego_graph(g, order = 0, V(g)[name %in% c("Rème", "Von Ballmoos")], mode = c("all"))
-
-s <- union(S[[1]], S[[2]])
-
-plot(S[[1]])
-
 e <- incident_edges(g, V(g)[name %in% c("Rème", "Von Ballmoos")], mode = c("all"))
 
 s <- subgraph.edges(g, unlist(e))
