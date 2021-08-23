@@ -2,7 +2,7 @@
 Supplementary material for the 2021 QSS article "Peer-making" by MP Bès, J Lamy and M Maisonobe
 
 #### Citation
-Bès, Marie-Pierre, Lamy, Jérôme et Maisonobe, Marion. 2021. Supplementary material for _Quantitative Science Studies_ research article: "Peer-making: the interconnections between PhD Thesis Committee membership and co-publishing"."
+Bès, Marie-Pierre, Lamy, Jérôme et Maisonobe, Marion. 2021. Supplementary material for _Quantitative Science Studies_ research article: "Peer-making: the interconnections between PhD Thesis Committee membership and co-publishing".
 
 
 
