@@ -7,7 +7,7 @@ Bès, Marie-Pierre, Lamy, Jérôme et Maisonobe, Marion. 2021. Supplementary mat
 
 
 #### Contact
-For any question, feel free to contact [me](https://www.parisgeo.cnrs.fr/spip.php?article8513&lang=fr) 
+For any question, feel free to contact [me](https://geographie-cites.cnrs.fr/membres/marion-maisonobe/) 
 
 #### Licence
 This repository is released under the <a href="LICENSE">**GNU AFFERO GENERAL PUBLIC LICENSE v3**</a>
