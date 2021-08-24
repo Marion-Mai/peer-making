@@ -29,12 +29,11 @@ g %>%
   ggraph(layout = l) + 
   geom_edge_link(edge_colour = "grey") +
   geom_node_point(aes(size = degree(g)), shape = 22, fill = "#037E40", stroke = 0.2) + # "darkgreen"
-  geom_node_text(aes(filter = degree(g) >= 20, label = name), fontface = "bold", size = 1.5) +
-  geom_node_text(aes(filter = degree(g) < 20, label = name), size = 1, repel = TRUE, min.segment.length = Inf, max.overlaps = Inf) +
+  geom_node_text(aes(label = name, fontface = ifelse(degree(g) >= 40, "bold", "plain")), size = ifelse(degree(g) >= 40, 3, 2), colour = "black", repel = T, show.legend = F) + # ,  repel = TRUE, min.segment.length = Inf, max.overlaps = Inf / size = ifelse(degree(g) >= 20, 5, 4)
   theme_void() +
   labs(size = "Jury members'\ndegree") +
-  theme(legend.title = element_text(size = 5),
-        legend.text = element_text(size = 4),
+  theme(legend.title = element_text(size = 6),
+        legend.text = element_text(size = 5),
         legend.position = "bottom")
 
 ggsave("plots/figure-8.pdf")
@@ -48,14 +47,13 @@ g %>%
   ggraph(layout = l) + 
   geom_edge_link(aes(filter = E(g)$weight >= 2), edge_colour = "grey") +
   geom_node_point(aes(size = degree(g)), shape = 22, fill = "#037E40", stroke = 0.2) + # "darkgreen"
-  geom_node_text(aes(filter = degree(g) >= 20, label = name), fontface = "bold", size = 1.5) +
-  geom_node_text(aes(filter = degree(g) < 20, label = name), size = 1, repel = TRUE, min.segment.length = Inf, max.overlaps = Inf) +
+  geom_node_text(aes(label = name, fontface = ifelse(degree(g) >= 40, "bold", "plain")), size = ifelse(degree(g) >= 40, 3, 2), colour = "black", repel = T, show.legend = F) + # ,  repel = TRUE, min.segment.length = Inf, max.overlaps = Inf / size = ifelse(degree(g) >= 20, 5, 4)
   # geom_node_text(aes(filter = degree(g) >= 2, label = name), size = 1.2, repel = TRUE,
      #            segment.color = "#037E40") +
   theme_void() +
   labs(size = "Jury members'\ndegree") +
-  theme(legend.title = element_text(size = 5),
-        legend.text = element_text(size = 4),
+  theme(legend.title = element_text(size = 6),
+        legend.text = element_text(size = 5),
         legend.position = "bottom")
 
 ggsave("plots/figure-9.pdf")
@@ -84,12 +82,11 @@ i %>%
   ggraph(layout = l) + 
   geom_edge_link(edge_colour = "grey") +
   geom_node_point(aes(size = degree(g)), shape = 22, fill = "#037E40", stroke = 0.2) + # "darkgreen"
-  geom_node_text(aes(filter = degree(g) >= 20, label = name), fontface = "bold", size = 1.5) +
-  geom_node_text(aes(filter = degree(g) < 20, label = name), size = 1, repel = TRUE, min.segment.length = Inf, max.overlaps = Inf) +
+  geom_node_text(aes(label = name, fontface = ifelse(degree(i) >= 20, "bold", "plain")), size = ifelse(degree(i) >= 20, 3, 2), colour = "black", repel = T, show.legend = F) + # ,  repel = TRUE, min.segment.length = Inf, max.overlaps = Inf / size = ifelse(degree(g) >= 20, 5, 4)
   theme_void() +
   labs(size = "Jury members'\ndegree") +
-  theme(legend.title = element_text(size = 5),
-        legend.text = element_text(size = 4),
+  theme(legend.title = element_text(size = 6),
+        legend.text = element_text(size = 5),
         legend.position = "bottom")
 
 ggsave("plots/figure-10.pdf")
